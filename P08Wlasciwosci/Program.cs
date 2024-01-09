@@ -33,6 +33,13 @@ namespace P08Wlasciwosci
             Console.WriteLine(czlowiek.ImieNazwisko);
 
             czlowiek.ImieNazwisko = "Adam nowak";
+
+
+            ManagerPogody mp = new ManagerPogody();
+
+            Console.WriteLine(mp.AdresPodstawowy);
+            Console.WriteLine(mp.PodajTemperature("Warszawa","Kelvin"));
+
         }
     }
 }
