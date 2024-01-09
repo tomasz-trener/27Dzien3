@@ -15,6 +15,7 @@ namespace P04ZadanieKalkulator
 
             try
             {
+                
                 double wynik1 = k.WykonajDzialanie("4+5");
                 double wynik2 = k.WykonajDzialanie(4, 5, '+');
 
