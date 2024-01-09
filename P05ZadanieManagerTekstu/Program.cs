@@ -10,6 +10,8 @@ namespace P05ZadanieManagerTekstu
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
