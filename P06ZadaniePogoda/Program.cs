@@ -14,7 +14,7 @@ namespace P06ZadaniePogoda
 
             try
             {
-                double temperatra = managerPogody.PodajTemperature("Warszawa", "Kelvin");
+                double temperatra = managerPogody.PodajTemperature("Warszawa", "elvin");
                 Console.WriteLine(temperatra);
             }
             catch (ArgumentException ex)
@@ -25,6 +25,8 @@ namespace P06ZadaniePogoda
             {
                 Console.WriteLine("(Nieznany bład) Nie udało się pobrać temperatury");
             }
+
+            Console.ReadKey();
         }
     }
 }
