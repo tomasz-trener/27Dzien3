@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06ZadaniePogoda", "P06Zada
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07Enumeratory", "P07Enumeratory\P07Enumeratory.csproj", "{6792DF86-6CA3-4707-8505-63391A7D98AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08Wlasciwosci", "P08Wlasciwosci\P08Wlasciwosci.csproj", "{488F4CE1-2963-4D0E-B039-A034109E92A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6792DF86-6CA3-4707-8505-63391A7D98AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6792DF86-6CA3-4707-8505-63391A7D98AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6792DF86-6CA3-4707-8505-63391A7D98AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488F4CE1-2963-4D0E-B039-A034109E92A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488F4CE1-2963-4D0E-B039-A034109E92A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488F4CE1-2963-4D0E-B039-A034109E92A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488F4CE1-2963-4D0E-B039-A034109E92A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
