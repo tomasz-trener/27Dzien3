@@ -24,5 +24,12 @@ namespace P10Konstruktory
 
             Console.ReadKey();
         }
+
+        // Podsumowanie: 
+        // Klasy mogą się składać z:
+        // 1) pola -> prywatne cechy obiektu 
+        // 2) właściwości -> publiczne cechy obiektu 
+        // 3) konstruktory -> kontrolują sposób tworzenia obiektu 
+        // 4) metody -> realizacja zadań 
     }
 }
