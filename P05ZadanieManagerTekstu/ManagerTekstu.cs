@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P05ZadanieManagerTekstu.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.AccessControl;
@@ -12,7 +13,7 @@ namespace P05ZadanieManagerTekstu
         public string ZnajdzNajdluzszyWyraz(string zdanie)
         {
             if (zdanie.Length < 1)
-                throw new ArgumentException("Zdanie zbyt krótkie");
+                throw new ZbytKroktkieZdanieException();
 
 
             string[] wyrazy = zdanie.Split(' ');
